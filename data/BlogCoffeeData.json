@@ -1,6 +1,7 @@
 {
   "methods": [
     {
+      
       "id": "turka",
       "educationTabBtnName": "Турка",
       "icon": "src/images/coffeeMakingWaysIcon/turka.svg",
