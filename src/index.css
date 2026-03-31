@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  width: 100%;
+  /* padding: 0 70px; */
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.content {
+  flex: 1;
+}
+.footer {
+  margin-top: auto;
+}

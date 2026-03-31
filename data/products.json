@@ -1,0 +1,228 @@
+{
+  "tea": {
+    "title": "Чай и кофейные напитки",
+    "buttons": [
+      "Черный чай",
+      "Зеленый чай",
+      "Молочный улунг",
+      "Травяной чай",
+      "Матча",
+      "Пуэр",
+      "Кофейные напитки"
+    ],
+    "buttonImages": {
+      "Черный чай": "src/images/hero-tea.png",
+      "Зеленый чай": "src/images/hero-tea.png",
+      "Молочный улунг": "src/images/hero-tea.png",
+      "Травяной чай": "src/images/hero-tea.png",
+      "Матча": "src/images/hero-tea.png",
+      "Пуэр": "src/images/hero-tea.png",
+      "Кофейные напитки": "src/images/hero-coffee.png"
+    },
+    "products": {
+      "Черный чай": [
+        {
+          "id": 1,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Ассам",
+          "cardDescription": "Черный чай — насыщенный вкус и аромат",
+          "weights": {
+            "100": 250,
+            "200": 450,
+            "500": 950,
+            "1000": 1800
+          },
+          "discount": true
+        }
+      ],
+      "Зеленый чай": [
+        {
+          "id": 2,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Зеленый чай Сенча",
+          "cardDescription": "Классический японский чай с легкой горчинкой",
+          "weights": {
+            "100": 280,
+            "200": 520,
+            "500": 1150
+          },
+          "discount": false
+        }
+      ],
+      "Молочный улунг": [],
+      "Травяной чай": [],
+      "Матча": [],
+      "Пуэр": [],
+      "Кофейные напитки": []
+    }
+  },
+
+  "coffee": {
+    "title": "Свежеобжаренный кофе",
+    "buttons": ["Арабика", "Робуста", "Смеси", "Без кофеина"],
+    "buttonImages": {
+      "Арабика": "src/images/hero-coffee.png",
+      "Робуста": "src/images/hero-coffee-2.png",
+      "Смеси": "src/images/hero-coffee.png",
+      "Без кофеина": "src/images/hero-coffee-2.png"
+    },
+    "products": {
+      "Арабика": [
+        {
+          "id": 1,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Colombia Supremo",
+          "cardDescription": "Компания Нью Рефайнинг Груп находится в г. Калининграде и имеет свой склад и представительство в Москве. Завод работает на рынке свежеобжаренного кофе и растворимой продукции более 15 лет. Завод имеет немецкое оборудование марки Probat по обжарке кофе и итальянские агломераторы для производства растворимой продукции.",
+          "weights": {
+            "100": 450,
+            "200": 850,
+            "500": 1900
+          },
+          "discount": true
+        },
+        {
+          "id": 2,
+          "gradeAndReviews": "4.1",
+          "reviews": "48 (отзывов)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Ethiopia Yirgacheffe",
+          "cardDescription": "Яркий кофе с фруктовыми нотами и цветочным ароматом",
+          "weights": {
+            "100": 470,
+            "200": 890,
+            "500": 1950
+          },
+          "discount": false
+        }
+      ],
+      "Робуста": [
+        {
+          "id": 3,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Brazil Santos",
+          "cardDescription": "Мягкий кофе средней обжарки",
+          "weights": {
+            "100": 400,
+            "200": 750,
+            "500": 1600
+          },
+          "discount": false
+        }
+      ],
+      "Смеси": [],
+      "Без кофеина": []
+    }
+  },
+
+  "healthy": {
+    "title": "Здоровое питание",
+    "buttons": [
+      "Цикорий и корень цикория",
+      "Ячменные напитки",
+      "Напитки для здоровья",
+      "Протеиновые смеси",
+      "Толокняные каши"
+    ],
+    "buttonImages": {
+      "Цикорий и корень цикория": "src/images/hero-zoj.png",
+      "Ячменные напитки": "src/images/hero-zoj.png",
+      "Напитки для здоровья": "src/images/hero-zoj.png",
+      "Протеиновые смеси": "src/images/hero-zoj.png",
+      "Толокняные каши": "src/images/hero-zoj.png"
+    },
+    "products": {
+      "Цикорий и корень цикория": [
+        {
+          "id": 1,
+          "gradeAndReviews": "4.2",
+          "reviews": "21 (отзыв)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Цикорий натуральный",
+          "cardDescription": "Полезный напиток без кофеина, богатый инулином",
+          "weights": {
+            "100": 320,
+            "200": 590,
+            "500": 1250
+          },
+          "discount": false
+        }
+      ],
+      "Ячменные напитки": [
+        {
+          "id": 2,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Ячменный напиток Millor",
+          "cardDescription": "Компания Ню Рефайнинг Груп находится в Калининграде и производит растворимые напитки высшего качества.",
+          "weights": {
+            "100": 250,
+            "150": 350,
+            "165": 380,
+            "200": 420,
+            "500": 950,
+            "1000": 1800
+          },
+          "discount": true
+        }
+      ],
+      "Напитки для здоровья": [],
+      "Протеиновые смеси": [],
+      "Толокняные каши": []
+    }
+  },
+
+  "vending": {
+    "title": "Продукция для вендинга",
+    "buttons": [
+      "Гранулированный кофе",
+      "Гранулированный цикорий",
+      "Зерновой кофе",
+      "Гранулированный какао",
+      "Гранулированные кофейные напитки",
+      "Кофе порошкообразный",
+      "Сухое молоко гранулированное"
+    ],
+    "buttonImages": {
+      "Гранулированный кофе": "src/images/hero-wending.png",
+      "Гранулированный цикорий": "src/images/hero-wending.png",
+      "Зерновой кофе": "src/images/hero-wending.png",
+      "Гранулированный какао": "src/images/hero-wending.png",
+      "Гранулированные кофейные напитки": "src/images/hero-wending.png",
+      "Кофе порошкообразный": "src/images/hero-wending.png",
+      "Сухое молоко гранулированное": "src/images/hero-wending.png"
+    },
+    "products": {
+      "Гранулированный кофе": [
+        {
+          "id": 1,
+          "gradeAndReviews": "4.0",
+          "reviews": "32 (отзыва)",
+          "cardImage": "src/images/discount-1.png",
+          "cardTitle": "Шоколадный напиток",
+          "cardDescription": "Смесь для вендинговых автоматов",
+          "weights": {
+            "100": 500,
+            "200": 950,
+            "500": 2100
+          },
+          "discount": true
+        }
+      ],
+      "Гранулированный цикорий": [],
+      "Зерновой кофе": [],
+      "Гранулированный какао": [],
+      "Гранулированные кофейные напитки": [],
+      "Кофе порошкообразный": [],
+      "Сухое молоко гранулированное": []
+    }
+  }
+}

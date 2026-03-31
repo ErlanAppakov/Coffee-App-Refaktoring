@@ -1,0 +1,55 @@
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: coffee-app-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: coffee-app
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - coffee-app-network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./server
+    container_name: coffee-app-backend
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/coffee-app
+      - PORT=5001
+      - NODE_ENV=production
+      - JWT_SECRET=${JWT_SECRET:-your_jwt_secret_key_here_change_in_production}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - coffee-app-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coffee-app-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - coffee-app-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  coffee-app-network:
+    driver: bridge

@@ -1,0 +1,62 @@
+.notFound {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.title {
+  font-size: 120px;
+  font-weight: 800;
+  color: #f9b300;
+  line-height: 1;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.homeBtn {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #f9b300;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+}
+
+.homeBtn:hover {
+  background-color: #e0a000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(249, 179, 0, 0.3);
+}

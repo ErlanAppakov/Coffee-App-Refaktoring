@@ -1,0 +1,21 @@
+.title {
+  font-weight: 900;
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.subTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.beanAnchor {
+  padding: 15px 48px;
+  background: #f9b300;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 21px;
+  color: #fff;
+}

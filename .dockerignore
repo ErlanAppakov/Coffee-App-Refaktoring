@@ -1,0 +1,12 @@
+server
+node_modules
+dist
+.env
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+vite.config.ts
+tsconfig.json
+tsconfig.node.json

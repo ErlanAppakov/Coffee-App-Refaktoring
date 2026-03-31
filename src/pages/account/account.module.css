@@ -1,0 +1,483 @@
+.account {
+  padding: 40px 0 80px;
+  background-color: #fffaf0;
+}
+
+.profileWrapper {
+  display: flex;
+  gap: 0;
+  margin-bottom: 50px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.profileInfo {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  padding: 20px 20px 20px 100px;
+  min-height: 100%;
+}
+
+.avatarWrapper {
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f9b300;
+}
+
+.userDetails {
+  flex: 1;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.userEmail,
+.userPhone,
+.userPassword {
+  font-size: 13px;
+  color: #666;
+  margin: 3px 0;
+}
+
+.editBtn {
+  margin-top: 10px;
+  background: #f9b300;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.adminBtn {
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #4caf50;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+  font-size: 14px;
+  text-align: center;
+}
+
+.adminBtn:hover {
+  background: #45a049;
+  transform: translateY(-1px);
+}
+
+.editBtn:hover {
+  background: #e0a000;
+}
+
+.logoutBtn {
+  margin-top: 8px;
+  margin-left: 8px;
+  background: #f44336;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 100%;
+  max-width: 100px;
+  font-size: 14px;
+}
+
+.logoutBtn:hover {
+  background: #d93025;
+}
+
+.discountCard {
+  background: #f9b300;
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 382px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.discountHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.discountTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.discountHintIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  color: #f9b300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: help;
+}
+
+.discountText {
+  font-size: 14px;
+  margin: 8px 0;
+  opacity: 0.95;
+}
+
+.discountProgress {
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+.ordersSection {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.ordersHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.ordersTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #222;
+}
+
+.deleteOrdersBtn {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deleteOrdersBtn:hover {
+  background: #d93025;
+}
+
+.ordersList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orderCard {
+  border: 1px solid #f3f3f3;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.orderDate {
+  font-size: 14px;
+  color: #666;
+}
+
+.deliveryDate {
+  font-size: 14px;
+  color: #666;
+}
+
+.orderTable {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.orderFooter {
+  text-align: right;
+}
+
+.orderTotal {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #222;
+}
+
+.orderDelivery {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.noOrders {
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  padding: 40px 0;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modalContent {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modalClose {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.modalClose:hover {
+  color: #333;
+}
+
+.modalTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="password"],
+.formGroup input[type="email"] {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.formGroup input:focus {
+  border-color: #f9b300;
+}
+
+.avatarUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.avatarPreview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f9b300;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileInputLabel {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #f9b300;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.fileInputLabel:hover {
+  background: #e0a000;
+}
+
+.removeAvatarBtn {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.removeAvatarBtn:hover {
+  background: #d93025;
+}
+
+.errorMessage {
+  color: #f44336;
+  font-size: 14px;
+  padding: 10px;
+  background: #ffebee;
+  border-radius: 6px;
+  border: 1px solid #ffcdd2;
+}
+
+.successMessage {
+  color: #4caf50;
+  font-size: 14px;
+  padding: 10px;
+  background: #e8f5e9;
+  border-radius: 6px;
+  border: 1px solid #c8e6c9;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.cancelBtn {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cancelBtn:hover {
+  background: #d0d0d0;
+}
+
+.saveBtn {
+  background: #f9b300;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.saveBtn:hover {
+  background: #e0a000;
+}

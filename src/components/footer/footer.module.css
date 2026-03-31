@@ -1,0 +1,70 @@
+.footer {
+  margin-bottom: 70px;
+}
+.footerTop {
+  display: flex;
+  align-items: end;
+  margin-bottom: 90px;
+}
+.leftBlock {
+}
+.footerTitle {
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.footerSubtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 39px;
+}
+.footerForm {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 28px;
+  margin-bottom: 14px;
+  width: 779px;
+  height: 57px;
+  background: #f3f3f3;
+}
+.footerInput {
+  border-radius: 28px;
+  outline: none;
+  border: none;
+  width: 80%;
+  background: #f3f3f3;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #c9c9c9;
+  padding-left: 40px;
+}
+.footerBtnSubmit {
+  width: 20%;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background: #f9b300;
+  border: none;
+  cursor: pointer;
+}
+.formText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  color: #5b5b5b;
+}
+.userAgreement {
+  font-weight: 600;
+  color: #f9b300;
+}
+.footerBottom {
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

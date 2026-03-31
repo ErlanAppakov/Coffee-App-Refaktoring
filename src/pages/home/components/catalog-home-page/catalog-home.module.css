@@ -1,0 +1,69 @@
+.catalogList {
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 960px;
+  }
+  .catalogProductsTitle {
+    margin-bottom: 60px;
+    font-weight: 900;
+    font-size: 35px;
+    color: #000;
+  }
+  .catalogProductsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .catalogProductsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 280px;
+    height: 381px;
+    box-shadow: 0 0 30px 0 rgba(146, 146, 146, 0.2);
+    background: #fff;
+  }
+  .catalogProductsCard img{
+    transition: all .3s;
+  }
+  .catalogProductsCard:hover img {
+    margin-top: -70px;
+    transition: all .3s;
+  }
+  
+  .catalogProductsCardImageWrapper {
+    width: 203px;
+    height: 162px;
+    margin-bottom: 40px;
+  }
+  .catalogProductsCardImageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 35px;
+  }
+  .catalogBuy {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    padding: 12px 85px;
+    background: #f9b300;
+    border-radius: 5px;
+  }
+  .catalogBuy:hover {
+    background: #e2a300;
+  }
+  
+  

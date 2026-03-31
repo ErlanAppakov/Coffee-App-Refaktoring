@@ -1,0 +1,61 @@
+.education {
+  margin-top: 76px;
+  margin-bottom: 110px;
+}
+.educationTitle {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.educationTabWrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+.educationTabBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 14px;
+  width: 134px;
+  height: 134px;
+  box-shadow: 0 0 21px 0 rgba(149, 149, 149, 0.25);
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+.educationName {
+  width: 58px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.activeEducationTabBtn {
+  background: #f9b300;
+  color: #fff;
+}
+
+.coffeeMakingWaysTitle {
+  font-weight: 900;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.CoffeeMakingWaysDesc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #222;
+  margin-bottom: 50px;
+}
+.CoffeeMakingWaysImage {
+  margin-bottom: 40px;
+}
+.coffeeMakingWaysSubtitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 40px;
+}

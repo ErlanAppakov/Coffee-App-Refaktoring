@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Иван Иванов",
+    "email": "ivan@gmail.com",
+    "password": "12345",
+    "role": "user",
+    "discount": 10,
+    "orders": [
+      {
+        "id": "ORD-001",
+        "date": "2025-10-10",
+        "status": "paid",
+        "items": [
+          { "title": "Columbia Supremo", "weight": "250 г", "price": 270 },
+          {
+            "title": "Ячменный напиток Millor",
+            "weight": "250 г",
+            "price": 210
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Админ Миллор",
+    "email": "admin@millor.ru",
+    "password": "admin",
+    "role": "admin"
+  }
+]
